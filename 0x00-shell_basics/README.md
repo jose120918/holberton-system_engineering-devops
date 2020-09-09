@@ -1,8 +1,8 @@
 # Shell, iniciación
 
-## ¿Que es la Shell? ¿Como navego en mi Terminal? ¿Que es LTS? ¿Necesito ATajos para Bash?
+## ¿Que es la Shell? ¿Como navego en mi Terminal? ¿Que es LTS? ¿Necesito Atajos para Bash?
 
-EN este proyecto, Shell Basics, de Holberton School, se solucionaran preguntas frecuentes del suo de la terminal, entender que es Bash, enlaces duros y simbolicos, como navego a traves de mi terminal, que es un LTS.
+En este proyecto, Shell Basics, de Holberton School, se solucionaran preguntas frecuentes del suo de la terminal, entender que es Bash, enlaces duros y simbolicos, como navego a traves de mi terminal, que es un LTS.
 
 ## Learning Objectives:bulb:
 At the end of this project, you are expected to be able to explain to anyone, without the help of of Google:
