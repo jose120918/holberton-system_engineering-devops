@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Bash script story of the passwd
+input="/etc/passwd"
+while IFS= read -r line
+do
+	USERNAME=$(echo "$line" | cut -d':' -f 1)
+			GROUP_ID=$(echo "$line" | cut -d':' -f 4)
+					HOME_DIRECTORY=$(echo "$line" | cut -d':' -f 6)
+							      CMDS="$(echo "$line" | cut -d':' -f 7)"
+							      		   USER_ID=$(echo "$line" | cut -d':' -f 3)
+									   		  PASSWORD=$(echo "$line" | cut -d':' -f 2)
+											  		  USERIDINFO=$(echo "$line" | cut -d':' -f 5)
+													  		    echo "The user $USERNAME is part of the $GROUP_ID gang, lives in $HOME_DIRECTORY and rides $CMDS. $USER_ID's place is protected by the passcode $PASSWORD, more info about the user here: $USERIDINFO"
+															    done < "$input"
