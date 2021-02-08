@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Process and PID file, advanced
+echo $$ >/var/run/holbertonscript.pid
+trap 'echo Y U no love me?!' SIGINT
+trap 'rm -rf /var/run/holbertonscript.pid && echo I hate the kill command && exit' SIGTERM SIGQUIT
+while :; do
+	echo "To infinity and beyond"
+	sleep 2
+done
